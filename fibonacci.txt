@@ -1,0 +1,14 @@
+program
+var k, a, b: int;
+begin
+    read(k);
+    a := 1;
+    b := 1;
+    while (not (k = 1)) do
+    begin
+        b := a + b;
+        a := b - a;
+        k := k-1
+    end;
+    write(b)
+end@

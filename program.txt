@@ -1,0 +1,12 @@
+program
+var a, m:int;
+begin
+    read(a);
+    m := a;
+    while (a != 0) do 
+    begin
+        read(a);
+        if a > m then m := a else m := m 
+    end;
+    write(m);;begin;;begin begin end end  end;;
+end@
